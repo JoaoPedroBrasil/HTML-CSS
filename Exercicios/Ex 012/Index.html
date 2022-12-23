@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+
+<body>
+    <h1>Inserindo Videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor</p>
+
+    <video width="560" poster="imagens/limoes-capa.png" controls loop autoplay muted>
+        <!--autoplay so funfa com o muted junto-->
+        <source src="media/meu-video-mp4.mp4" type="Video/mp4">
+        <source src="media/Meu-Video-m4v.m4v" type="Video/mv4">
+        <source src="media/Meu-Video-web.webm" type="Video/web">
+        <source src="media/meu-video-ogv.ogv" type="Video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+    </video>
+
+    <h1>Inserindo videos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EZ6uyjxLQkQ" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</body>
+
+</html>
