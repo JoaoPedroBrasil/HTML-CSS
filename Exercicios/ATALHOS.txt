@@ -1,4 +1,4 @@
-<!--Click onde quer apagar e aperte ALT e assim vai-->
-<!--"CTRL+ENTER", fará você ir para uma nova linha mesmo que o cursor do mouse esteja entre <tags>.-->
-<!--"CRTL+ClICK" em cima do texto farar criar outro com o link -->
-
+<!-- Click onde quer apagar e aperte ALT e assim vai-->
+<!-- CTRL+ENTER, fará você ir para uma nova linha mesmo que o cursor do mouse esteja entre <tags>.-->
+<!-- CRTL+ClICK em cima do texto farar criar outro com o link -->
+<!-- SHIFT + ALT + F Atalho para identar o código dentro do VS Code -->
